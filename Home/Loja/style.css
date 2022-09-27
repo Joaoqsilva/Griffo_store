@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;0,700;1,700&display=swap');
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid rgb(0, 0, 0); 
+}
+
+.cabecalho-menu li {
+    display: inline;
+    
+}
+
+.cabecalho li a:hover {
+    transform: translateY(-20px);
+}
+
+.cabecalho-menu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding: 8px;
+    
+    
+}
+
+.cabecalho-menu li a:hover {
+
+    border-bottom: 2px solid ;
+    box-shadow: none;
+    transform: translateY(-20px);
+}
+/* aqui termina a navegaçao*/
+/*--------------------------------------------------------------------------------------------------------*/
+/*aqui começa a parte de login*/
+.cabecalho-login {
+   
+
+}
+
+.cabecalho-login li {
+    display: inline;
+    
+}
+
+.cabecalho-login li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 4px;
+    padding: 10px;
+}
+
+.cabecalho-login li a:hover {
+    border-bottom: 2px solid;
+    box-shadow: none;
+    transform: translateY(-20px);
+}
+
+/*aqui acaba o cabeçalho*/
+
+.TEXTO {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.card-produto {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 40px;
+}
+
+.Mais-vendidos {
+    display: flex;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.imagen {
+    background-image: url(https://img.ltwebstatic.com/images3_pi/2021/06/01/16225237495557384810b10bf4ad73f3327788059d_thumbnail_600x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 28rem;
+    width: 22rem;
+    
+
+}
+
+.imagen:hover {
+    transition: all 300ms;
+
+    background-image: url(https://img.ltwebstatic.com/images3_pi/2021/06/01/16225237510f82e6e7c03e98f9d3951e6bae9ceafc_thumbnail_600x.webp);
+}
+
+.imagen2 {
+    background-image: url(https://img.ltwebstatic.com/images3_pi/2022/04/14/1649917152cf70bbc0953b11f18ba180c326cd83ee_thumbnail_600x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 28rem;
+    width: 22rem;
+    
+
+}
+
+.imagen2:hover {
+    transition: all 300ms;
+    background-image: url(https://img.ltwebstatic.com/images3_pi/2022/04/11/164967381376b09c64a3c2bbb4e24926988cad7ca8_thumbnail_600x.webp);
+}
+
+.imagen3 {
+    background-image: url(https://img.ltwebstatic.com/images3_pi/2022/08/26/16615017874d350815166c504fa0111ee8cf9c2c7d_thumbnail_600x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 28rem;
+    width: 22rem;
+    
+
+}
+
+.imagen3:hover {
+    transition: all 300ms;
+    background-image: url(https://img.ltwebstatic.com/images3_pi/2022/08/03/16595261928fbdb7d0e60552d947d480eeb91c010f_thumbnail_600x.webp);
+}
+
+.imagen4 {
+    background-image: url(https://img.ltwebstatic.com/images3_pi/2022/08/22/1661150085c0b16499b39186316be025a88b5e725c_thumbnail_600x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 28rem;
+    width: 22rem;
+    
+
+}
+
+.imagen4:hover {
+    transition: all 300ms;
+    background-image: url(https://img.ltwebstatic.com/images3_pi/2022/08/22/16611500870583f8f6f347a368d6dc0cfa44589186_thumbnail_600x.webp);
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.Compra .pr{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    
+}
+
+.Compra > h1 {
+    display: flex;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+}
+
+.btn-c {
+    display: flex;
+    padding: 8px;
+    border: 1px solid;
+    cursor: pointer;
+    font-size: large;
+    
+}
+
+.btn-c:hover {
+    color: beige;
+    background-color: rgb(34, 32, 32);
+    transform: translateY(-7);
+   
+  
+}
+
+.btn-c:active {
+    transform: translatex(2);
+
+}
+
+
+
+.secoes {
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    padding-bottom:  40px;
+    
+}
+
+
+
+.secao1 {
+    background-color: rgb(186, 184, 184);
+    display: flex;
+
+}
+
+.camisa {
+    margin-top: 4px;
+    height: 7rem;
+    padding: 12px;
+
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    margin-right: 1.2rem;
+    margin-left: .8rem;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+
+.gap {
+    display: flex;
+    gap: 12px;
+}
+
+.secoes:hover {
+
+}
+
+
+@media (max-width: 920px) {
+    nav .menu-btn i{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: #003840;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    nav ul.open{
+        left: 0;
+    }
+    nav ul li{
+        width: 100%;
+        margin: 50px 0;
+    }
+    nav ul li a {
+        font-size: 23px;
+    }
+    nav ul li a.active,
+    nav ul li a:hover{
+        background: none;
+        color: #f88f06;
+    }   
+}

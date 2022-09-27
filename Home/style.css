@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid rgb(0, 0, 0); 
+}
+
+.cabecalho-menu li {
+    display: inline;
+    
+}
+
+.cabecalho li a:hover {
+    transform: translateY(-20px);
+}
+
+.cabecalho-menu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding: 8px;
+    
+    
+}
+
+.cabecalho-menu li a:hover {
+
+    border-bottom: 2px solid ;
+    box-shadow: none;
+    transform: translateY(-20px);
+}
+/* aqui termina a navegaçao*/
+/*--------------------------------------------------------------------------------------------------------*/
+/*aqui começa a parte de login*/
+.cabecalho-login {
+   
+
+}
+
+.cabecalho-login li {
+    display: inline;
+    
+}
+
+.cabecalho-login li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 4px;
+    padding: 10px;
+}
+
+.cabecalho-login li a:hover {
+    border-bottom: 2px solid;
+    box-shadow: none;
+    transform: translateY(-20px);
+}
+
+/*aqui acaba o cabeçalho*/
+
+.texto {
+    display: inline;
+    justify-content: center;
+    padding-top: 4px;
+
+}
+
+
+.banner {
+    margin-left: 40px;
+    height: 45rem;
+}
+
+.Destaques h1 {
+    display: flex;
+
+}
+
+.texto {
+    display: flex;
+    margin: 40px;
+    font-size: 60px;
+    justify-content: center;
+
+}
+
+/*ABAIXO É A PARTE DOS DESTAQUES QUE FOI COPIADO DA PARTE DA LOJA*/
+
+.Mais-vendidos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 80px;
+}
+
+.Destaques1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.Destaques1 h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+   
+}
+
+.Destaques1 img:hover {
+    transition: all 600ms;
+    filter: opacity(0.6) drop-shadow(0 0 0 rgb(128, 128, 128))
+}
+
+
+.imagen {
+    background-image: url(https://img.ltwebstatic.com/images3_pi/2021/06/01/16225237495557384810b10bf4ad73f3327788059d_thumbnail_600x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 28rem;
+    width: 22rem;
+    
+
+}
+
+.imagen:hover {
+    transition: all 300ms;
+    background-image: url(https://img.ltwebstatic.com/images3_pi/2021/06/01/16225237510f82e6e7c03e98f9d3951e6bae9ceafc_thumbnail_600x.webp);
+}
+
+.card1-imagen {
+    background-image: url(https://img.ltwebstatic.com/images3_pi/2020/08/13/1597284672896b852ed00eb8e7ddeb3ff5fa456d5d_thumbnail_600x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 28rem;
+    width: 22rem;
+    
+
+}
+
+.card1-imagen:hover {
+    transition: all 300ms;
+    background-image: url(https://img.ltwebstatic.com/images3_pi/2020/08/13/1597284683f69db8d3fe0e21170ab01abb455d48c4_thumbnail_600x.webp);
+}
+
+.Compra .pr{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    
+}
+
+.Compra > h1 {
+    display: flex;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+}
+
+.Compra .pr{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    
+}
+
+.Compra > h1 {
+    display: flex;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+}
+
+.btn-c {
+    display: flex;
+    padding: 8px;
+    border: 1px solid;
+    cursor: pointer;
+    font-size: large;
+    
+}
+
+.btn-c:hover {
+    color: beige;
+    background-color: rgb(34, 32, 32);
+    transform: translateY(-7);
+   
+  
+}
+
+.link {
+    text-decoration: none;
+}
+
+/*AQUI TERMINA A PARTE DE DESTAQUES 1*/
+/*AGORA E A PARTE DE UM BANNER */
+
+.banner-destaque {
+ 
+    display: flex;
+    justify-content: flex-end;
+    background-color: antiquewhite;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 43rem;
+    gap: 40px;
+    
+}
+
+.textos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 180px;
+    font-size: 40px;
+}
+
+.textos h4 {
+    display: flex;
+    justify-content: center;
+    margin-left: 76px;
+    font-size: 20px;
+}
+
+
+
+.Fotos {
+    background-image: url(https://img.ltwebstatic.com/images3_pi/2021/06/01/16225237495557384810b10bf4ad73f3327788059d_thumbnail_600x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 28rem;
+    width: 22rem;
+    margin-top: 5rem;
+    
+
+}
+
+.Fotos:hover {
+    transition: all 300ms;
+    background-image: url(https://img.ltwebstatic.com/images3_pi/2021/06/01/16225237510f82e6e7c03e98f9d3951e6bae9ceafc_thumbnail_600x.webp);
+    
+}
+
+.Compra-texto .pr{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    
+}
+
+.compra-texto > h1 {
+    display: flex;
+    font-size: 27px;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+}
+
+.compra-texto .pr{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    
+}
+
+.btn-c {
+    display: flex;
+    padding: 8px;
+    border: 1px solid;
+    cursor: pointer;
+    font-size: large;
+    
+}
+
+.btn-c:hover {
+    color: beige;
+    background-color: rgb(34, 32, 32);
+    transform: translateY(-7);
+   
+  
+}
+
+
+.qualidades {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+ 
+}
+
+.qualidade1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color: #E1E1E1;
+   width: 20rem;
+   height: 12rem;
+}
+
+.qualidade1 a {
+    text-decoration: none;
+
+    color: black;
+}
+
+.qualidade1 a:hover{
+     border-bottom: 1px solid;
+}
+
+.q1imagen {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 20px;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 90px;
+    gap: 90px;
+    
+    margin-top: 40px;
+    height: 400px;
+    background-color: #282828;
+}
+
+.footer ul li { 
+    padding: 5px;
+color: white;
+   
+}
+
+.footer h2  {
+    color: red;
+   
+}

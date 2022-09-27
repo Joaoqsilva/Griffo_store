@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid rgb(0, 0, 0); 
+}
+
+.cabecalho-menu li {
+    display: inline;
+    
+}
+
+.cabecalho li a:hover {
+    transform: translateY(-20px);
+}
+
+.cabecalho-menu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding: 8px;
+    
+    
+}
+
+.cabecalho-menu li a:hover {
+
+    border-bottom: 2px solid ;
+    box-shadow: none;
+    transform: translateY(-20px);
+}
+/* aqui termina a navegaçao*/
+/*--------------------------------------------------------------------------------------------------------*/
+/*aqui começa a parte de login*/
+.cabecalho-login {
+   
+
+}
+
+.cabecalho-login li {
+    display: inline;
+    
+}
+
+.cabecalho-login li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 4px;
+    padding: 10px;
+}
+
+.cabecalho-login li a:hover {
+    border-bottom: 2px solid;
+    box-shadow: none;
+    transform: translateY(-20px);
+}
+
+/*aqui acaba o cabeçalho*/
+
+.producto {
+    display: flex;
+    justify-content: center;
+}
+
+.Parte-pricipal {
+    height: 100%;
+    width: 30rem;
+    margin-left: 20px;
+}
+
+
+.skuu {
+    display: flex;
+    margin-top: 12px;
+    color: #facf19 ;
+    justify-content: space-between;
+}
+
+.price {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    
+}
+
+.juros {
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    padding-left: 17px;;
+    height: 40px;
+    margin-bottom: 2rem;
+}
+.img-juros {
+    padding-left: 2px;
+    height: 1.2rem;
+}
+
+.parte-2 {
+    margin-top: 20rem;
+}
+
+.regras {
+    margin-top: 8px;
+}
+
+.guia {
+    text-decoration: none;
+    color: blue;
+}
+
+.tamanho {
+   
+    display: flex;
+    margin-top: 12px;
+    gap: 12px;
+ 
+}
+
+.barra {
+    border-top: 1px solid;
+    padding: 20px;
+}
+
+.tamanho p {
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    width: 50px;
+    padding: 10px;
+    border-radius: 40rem;
+    cursor: pointer;
+}
+
+.tamanho p:hover {
+    border: 3px solid  black;
+}
+
+.tamanho p::before {
+    color: black;
+}
+
+.infos{
+    margin-top: 12px;
+}
+
+.infos h1{
+    
+}
+.infos h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 20px;
+    height: 2.4rem;
+    width: 8rem;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.infos p {
+    width: 32rem;
+    padding: 12px 10px 12px 14px;
+    background-color: whitesmoke;
+    
+}
+.Compra {
+    display: flex;
+    justify-content: space-around;
+}
+.butao {
+    display: inline;
+    height: 60px;
+    width: 28rem;
+    color: white;
+    padding: 0 40px;
+    font-weight: 900;
+    background-color: #222222;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.butao:hover{
+    background-color: rgb(45, 45, 45);
+}
+
+.imagens-producto{
+    display: flex;
+    flex-direction: column;
+    margin-right: 18px;
+    gap: 12px;
+}
+.producto-img {
+    width: 90px;
+    height: 90px;
+}
+
+
+
+.producto-img:hover{
+    display: block;
+    border:  1px solid;
+
+}
+
+.imagen {
+ background-color: white;
+    border: 1px solid;
+    padding: 12px;
+    border-radius: 40px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    margin-top: 29px;
+
+}
+
+.imagen img {
+    height: 20px;
+    width: 20px;
+}
+
+.imagen img:hover {
+    background-image: url(./heart1.png);
+    background-size: cover;
+}
+
+.imagen img::marker {
+    background-image: url(./heart1.png);
+    background-size: cover;
+}
+
+.frete-regras {
+    margin-top: 20px;
+    padding-top: 12px;
+    height: 6rem;
+    width: 38rem;
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.texto {
+
+}
+
+.frete-regras img {
+    display: flex;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 20px;
+
+}
+
+.frete-regras p {
+   color: #767676;
+   padding-left: 12px;
+}
+
+.frete-regras h4 {
+    color: black;
+    padding-left: 12px;
+}
+
+.frete-regras a {
+    text-decoration: none;
+}
+
+.devolucao {
+    display: flex;
+    background-color: whitesmoke;
+    height: 4rem;
+    width: 38rem;
+    padding: 4px;
+
+}
+
+.devolucao img {
+    margin-left: 20px;
+
+    height: 2rem;
+    width: 2rem;
+    
+}
+
+.devolucao p {
+    padding-left: 7px;
+    
+}
+
+.devolucao a  {
+    text-decoration: none;
+}
+.t1 {
+  color: black;
+}
+.t2 {
+    color: gray;
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+.desc {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.desc h2 {
+    cursor: pointer;
+}
